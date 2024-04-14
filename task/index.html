@@ -1,0 +1,131 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <!-- link of css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link of fontawsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+ 
+    <div class="topHeaderProgress">
+      <div class="progressed"></div>
+      <div class="pandingProgressed"></div>
+    </div>
+    <!-- hero section -->
+    <div class="heroSection">
+      <img src="./media//hero.png" alt="hero banner" id="heroBanner" />
+      <img src="./media/star.png" alt="rating" id="ratingInHerosSection" />
+    </div>
+
+    <!-- code for making main content -->
+    <div class="mainContentDiv">
+      <h1>Start Your Secret Santa</h1>
+      <p>
+        Organize your Elfster exchange lickety-split. You'll be done in less
+        than two minutes. Then get ready to exchange gifts! Already did this
+        last year?
+      </p>
+      <a
+        href="https://www.elfster.com/a/sign-up/?returnurl=%2Fsecret-santa-generator%2Flight%2Frepeat%2F"
+        target="
+        _blank"
+        >Use your previous exchanges.</a
+      >
+    </div>
+
+    <!-- code for making  form -->
+    <div class="formDiv">
+      <h1>Enter Names</h1>
+      <form action="">
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter Name" />
+        <!-- div for radio options -->
+        <div class="radioDivForm">
+          <div>
+            <input type="radio" name="participatentType" />
+            <label for="participatentType">
+              I'm organizing and participating
+            </label>
+          </div>
+          <div>
+            <input type="radio" name="participatentType" />
+            <label for="participatentType"> I'm just organizing </label>
+          </div>
+        </div>
+
+        <span id="addFriend">Add Your Friends</span>
+        <span id="bigGroup"> Got a big group? <span>Click Here</span></span>
+        <input type="text" name="name2" id="name2" placeholder="Enter Name2" />
+        <input type="text" name="name3" id="name3" placeholder="Enter Name3" />
+        <input type="text" name="name4" id="name4" placeholder="Enter Name4" />
+
+        <span id="addMore">+ Add more names?</span>
+        <button type="submit">get the party started <i>&rarr;</i></button>
+        <p class="messageBottomFOrm">
+          Don't fret! You can add more friends (or remove them) later, no sweat.
+        </p>
+      </form>
+    </div>
+    <!-- code for features -->
+    <div class="features">
+      <div class="trust">
+        <img src="./media/heart.png" alt="customer relationship" />
+        <strong>Trusted by 33 million people</strong>
+      </div>
+      <div class="rating">
+        <img src="./media/rating.png" alt="rating" />
+        <strong>4.9 stars 234K ratings</strong>
+      </div>
+      <div class="trophy">
+        <img src="./media/trophy.png" alt="trophy" />
+        <strong>#1 Secret Santa Generator</strong>
+      </div>
+    </div>
+
+    <!-- code for footer section -->
+    <div class="footerSection">
+      <p>elfster</p>
+      <a href="#">About</a>
+      <a href="#">Advertise With us</a>
+      <a href="#">Help</a>
+      <a href="#">Tell a friend</a>
+      <!-- social icon -->
+      <div class="socialIconsDiv">
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+        <a href="#" class="fa fa-youtube"></a>
+      </div>
+      <!-- download app section -->
+      <div class="downloadSection">
+        <p>Download the App</p>
+        <div class="mainDivForStores">
+          <img src="./media/appStore.png" alt="App Store" />
+          <img src="./media/google_store.png" alt="Google Store" />
+        </div>
+      </div>
+
+      <!-- email section -->
+
+      <div class="emailSection">
+        <p>Sign Up for Gifts, Giveaways & Good News!</p>
+        <input type="email" name="email" id="email" placeholder="Enter Email" />
+      </div>
+    </div>
+
+    <!-- code for footer -->
+    <footer>
+      <p>© 2024 Elfster Inc.</p>
+      <p>Privacy Policy | CA Privacy Rights | Terms Of Service</p>
+    </footer>
+    <!-- link of js -->
+    <script src="./main.js"></script>
+  </body>
+</html>

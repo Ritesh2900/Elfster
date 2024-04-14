@@ -1,0 +1,397 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+
+}
+
+
+
+.Nav {
+
+    align-items: center;
+    display: flex;
+    height: 8.7rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.Navheading {
+
+    margin-left: 45%;
+    display: inline-block;
+    height: 1.6rem;
+    width: 12.5rem;
+    border-color: transparent;
+    box-sizing: border-box;
+    color: inherit;
+    cursor: pointer;
+
+}
+
+
+.container {
+    width: 100%;
+    height: 17px;
+    /* Adjust height as needed */
+    background-color: rgb(217, 217, 217);
+    /* Default background color */
+}
+
+.mark {
+    height: 95%;
+    background-color: rgb(0, 128, 128);
+    /* Default mark color */
+    width: 20%;
+    /* Default width of the mark */
+}
+
+.formhead,
+.formpara {
+    text-align: center;
+    color: black;
+}
+
+
+.containerform {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    position: relative;
+    margin-top: -48%;
+
+}
+
+
+.form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+h6 {
+
+    margin-bottom: 10px;
+
+    color: #000;
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    font-weight: 500;
+    line-height: 3.6rem;
+    margin: 0 auto;
+    max-width: 48.6rem;
+    padding: 2rem 0;
+}
+
+p {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.Name {
+
+    color: rgb(0, 128, 128);
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -.024rem;
+    line-height: 2rem;
+    padding-bottom: 2.5rem;
+    text-align: left;
+}
+
+.label {
+    color: #000;
+    font-size: 1.0rem;
+    font-weight: 400;
+    line-height: 152.5%;
+
+    text-align: left;
+}
+
+.Refer {
+
+    color: #000;
+    font-size: 1.0rem;
+    font-weight: 400;
+    line-height: 152.5%;
+
+    text-align: left;
+}
+
+.Group {
+
+    color: rgb(66, 130, 128);
+    font-size: 0.6rem;
+
+
+
+    text-align: left;
+}
+
+.Addmore {
+    color: rgb(0, 128, 128);
+    font-size: 0.7rem;
+
+
+
+    text-align: left;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(0, 128, 128);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2.3rem;
+    cursor: pointer;
+
+    width: 80%;
+    margin-left: 10%;
+}
+
+button:hover {
+    background-color: rgb(0, 115, 120);
+}
+
+.lastaddmore {
+
+    font-size: 0.7rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+    color: rgba(0, 0, 0, .85);
+
+    margin-left: 20%;
+}
+
+
+
+
+.circle {
+    width: 133px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: rgb(240, 249, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 18px rgb(153, 187, 180);
+    position: relative;
+    margin-top: -90%;
+    margin-left: 73%;
+    justify-content: center;
+    border: 0.5px solid gray;
+}
+
+.stars {
+    font-size: 15px;
+    color: gold;
+    text-align: center;
+
+}
+
+.P1 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 28px;
+    color: rgb(17, 137, 136);
+}
+
+.P2 {
+    color: gray;
+    text-align: center;
+}
+
+.P3 {
+
+    text-align: center;
+    color: rgb(17, 137, 136);
+    font-size: 25px;
+}
+
+.P4 {
+    text-align: center;
+    color: gray;
+    font-size: 25px;
+    margin-top: -11%;
+}
+
+.state {
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+
+
+.rowfirst {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    background-color: rgb(0, 128, 128);
+    margin-top: 64%;
+
+
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 1 20px 20px 0;
+
+    border: 1px solid white;
+}
+
+.column p {
+    margin: 10px 0;
+    text-align: justify;
+    color: white;
+}
+
+
+.social{
+    display: flex; 
+    flex-direction: row;
+    margin-top: 7%;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+}
+
+.q2{
+    border: 1px solid;
+}
+
+.q1{
+    
+    height: 42px;
+    margin-top: 11%;
+    margin-right: 26%;
+}
+
+
+.footin{
+width: 69%;
+margin-left: 13%;
+
+}
+
+.rowfooter{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: rgb(0,128,128);
+    height: 37px;
+}
+
+.mediaqueery{
+   margin-top: 100%;
+   display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .mark {
+        width: 40%;
+        /* Adjust width for smaller screens */
+    }
+
+  #rootimg{
+   
+    margin-right: 30%;
+  }
+
+  .mediaqueery{
+    display:block;
+    margin-left: 54%;
+    margin-top: -202%;
+    position: relative;
+    color: rgb(14, 1, 1);
+  }
+   
+
+  .Navheading{
+    margin-top: 74%;
+  }
+  .circle{
+    display: none;
+  }
+    .content {
+        background-image: url('Image/backimg.jpeg');
+    }
+
+    .containerform {
+        width: 90%;
+    }
+
+    .column {
+        flex: 100%;
+    }
+
+    .container p {
+        flex: 100%;
+      }
+}
+.root{
+    
+    height: 24px;
+    width: 89px;
+    margin-left: 444px;
+    margin-top: 10%;
+    
+}
+
+  
+  .container4 {
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+  }
+  
+  .container .root1 {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  border: none;
+    margin: 10px;
+    text-align: justify;
+  }
+  
+
+  
+.containerlast1 {
+    display: flex;
+   background-color: rgb(255,255,255);
+  }
+  
+  .boxlast1 {
+    width: 300px;
+    height: 130px;
+   background-color: rgb(255,255,255);
+    margin: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5); /* Add box shadow */
+  }
+
+
+ 
